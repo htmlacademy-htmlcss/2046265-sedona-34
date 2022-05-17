@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Вадим Амиров](https://up.htmlacademy.ru/htmlcss/34/user/2046265).
-* Наставник: `Неизвестно`.
+* Наставник: [Екатерина Комнатная](https://up.htmlacademy.ru/profession/frontender/14/htmlcss/34/user/215761)
 
 ---
 
