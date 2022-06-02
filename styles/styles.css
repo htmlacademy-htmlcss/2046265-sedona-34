@@ -1,4 +1,4 @@
-@font-face{
+@font-face {
     font-family: "PT Sans";
     font-style: normal;
     font-weight: 400;
@@ -7,7 +7,7 @@
 
 }
 
-@font-face{
+@font-face {
     font-family: "PT Sans";
     font-style: normal;
     font-weight: 700;
@@ -16,7 +16,7 @@
 
 }
 
-@font-face{
+@font-face {
     font-family: "PT Sans";
     font-style: italic;
     font-weight: 400;
@@ -25,7 +25,7 @@
 
 }
 
-@font-face{
+@font-face {
     font-family: "PT Sans";
     font-style: italic;
     font-weight: 700;
@@ -34,54 +34,90 @@
 
 }
 
-body{
+body {
 
     font-family: "PT Sans", sans-serif;
     font-size: 18px;
     line-height: 21px;
-    color: #242424;
-    background-color: #fbf7fb;
-}  
+    color: #000000;
+    background-color: #ffffff;
+}
 
-.page-header{
+.page-header {
     background: #ffffff;
-    color:#000000;
+    color: #000000;
 
 }
 
-.navigation-link{
+.navigation-link {
     font-weight: 700;
     font-size: 20px;
     line-height: 26px;
     color: #000000;
     background-color: #ffffff;
-    text-align: center;
     text-decoration: none;
     text-transform: capitalize;
+    text-align: center;
 
 
-}    
+}
 
-.main-index{
+.main-index {
     background-image: url("../images/index-background.jpg");
     background-repeat: no-repeat;
     color: #000000;
     background-color: #ffffff;
     background-size: 100% auto;
-    
+
 }
 
-.advantages-hero h3{
+
+
+.advantages-hero h3 {
     text-align: center;
     text-transform: uppercase;
     font-size: 30px;
     line-height: 36px;
 }
-.advantages-list{
+
+.advantages-hero p {
+    text-align: center;
+    font-size: 22px;
+    line-height: 26px;
+    color: #333333;
+}
+
+.advantages-list {
     text-align: center;
 }
 
-.advantages-title{
-
+.advantages-title {
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
 }
+
+.search {
+    text-align: center;
+}
+
+.search-heading{
+    font-style: bold;
+    font-size: 30px;
+    line-height: 36px;
+    display: block;
+    text-transform: uppercase;
+}
+
+.hotels-description {
+    font-style: normal;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+}
+
+
+
+
+
 
