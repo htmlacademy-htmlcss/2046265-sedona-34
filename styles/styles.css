@@ -73,14 +73,15 @@ body {
 
 
 
-.advantages-hero h3 {
+.advantages-background {
     text-align: center;
     text-transform: uppercase;
     font-size: 30px;
     line-height: 36px;
+    font-weight: 700;
 }
 
-.advantages-hero p {
+.advantages-description{
     text-align: center;
     font-size: 22px;
     line-height: 26px;
@@ -97,6 +98,11 @@ body {
     text-transform: uppercase;
 }
 
+.advantages-description{
+    font-size: 18px;
+    line-height: 21px;
+}
+
 .search {
     text-align: center;
 }
@@ -107,6 +113,7 @@ body {
     line-height: 36px;
     display: block;
     text-transform: uppercase;
+    font-weight: 700;
 }
 
 .hotels-description {
@@ -116,6 +123,112 @@ body {
     text-align: center;
 }
 
+.page-footer{
+    text-align: center;
+
+}
+
+.subscription{
+   background-image: url(../images/background.jpg);
+   background-repeat: no-repeat;
+   background-size: 100% auto;
+   color:#ffffff;
+   background-color: #000000;
+    
+}
+
+.subscription-titel{
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.subscription-info{
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.contacts-phone{
+    font-size: 30px;
+    line-height: 36px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.hotel-filter{
+    background-image: url(../images/filter.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    color:#ffffff;
+    background-color: #000000;
+}
+
+.inner-header-title{
+    font-size: 60px;
+    line-height: 78px;
+    text-transform: capitalize;
+}
+
+.catalog-filter-title{
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 700;
+}
+
+.control{
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+}
+
+.catalog-title{
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.hotels-card-title{
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #000000;
+    text-decoration: none;
+}
+
+.hotels-card-price{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #333333;
+}
+
+.rating{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.hotels-card-button{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.subscription-catalog{
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+}
 
 
 
