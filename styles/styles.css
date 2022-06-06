@@ -25,6 +25,12 @@ body {
     background-color: #ffffff;
 }
 
+.container{
+    margin: 0 auto;
+    width: 960px;
+
+}
+
 .page-header {
     background: #ffffff;
     color: #000000;
