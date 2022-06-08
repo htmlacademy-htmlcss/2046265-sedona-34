@@ -33,7 +33,7 @@
         <li class="navigation-item">
           <a class="navigation-link" href="#">
             <span class="visually-hidden">Избранное</span></a>
-          <span class="number"><sup>12</sup></span>
+          <sup class="number">12</sup>
         </li>
         <li class="navigation-item">
           <a class="navigation-hotels" href="#">Хочу сюда!</a>
@@ -41,10 +41,11 @@
       </ul>
     </nav>
   </header>
-  <main class="main-index">
+  <main class="main-container main-index">
+    <div class="page-container">
     <div class="main-hero">
       <h1 class="visually-hidden">Добро пожаловать в Седону</h1>
-      <img src="images/welcome.svg" width="458" height="382"
+      <img class="welcome" src="images/welcome.svg" width="458" height="382"
         alt="Welcome to the gorgeous Sedone 'Because the Grand Canyon sucks'">
     </div>
     <section class="advantages">
@@ -106,13 +107,14 @@
         Седоне</p>
       <a class="search-link button" href="catalog.html">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</a>
     </section>
+  </div>
   </main>
   <footer class="page-footer">
     <section class="subscription">
       <h2 class="subscription-titel">Подпишитесь на рассылку</h2>
       <p class="subscription-info">Только полезная информация и никакого спама, честное бойскаутское!</p>
       <form class="subscription-form" action="#" method="post">
-        <input type="email" name="email" placeholder="Ваш email" required>
+        <input class="email" name="email" placeholder="Ваш email" required>
         <button class="subscription-button" type="submit">ПОДПИСАТЬСЯ</button>
       </form>
     </section>
