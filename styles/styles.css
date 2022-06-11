@@ -130,7 +130,7 @@ body {
 .advantages-divider {
     width: 664px;
     margin: 0 auto;
-    padding: 31px 273px 90px 273px;
+    padding: 31px 273px 90px 263px;
     text-align: center;
     font-size: 22px;
     line-height: 26px;
@@ -190,12 +190,6 @@ body {
     padding-right: 0;
 }
 
-.advantages-flex {
-    display: flex;
-    justify-content: space-between;
-
-}
-
 .advantages-couple {
     color: #ffffff;
     font-size: 18px;
@@ -228,7 +222,11 @@ body {
     color: #333333;
 }
 
-.advantages-square {
+.advantages-item{
+    display: flex;
+}
+
+.advantages-square {   
     width: 400px;
     min-height: 384px;
     padding: 0;
