@@ -144,9 +144,15 @@ body {
     margin: 0;
 }
 
+.advantages-sub-paragraph{
+    width: 400px;
+    min-height: 384px;
+    padding: 0;
+}
+
 .advantages-item{
    width: 400px;
-   min-height: 385px;
+   min-height: 384px;
    padding: 0;
 
 }
@@ -387,6 +393,10 @@ body {
     font-size: 18px;
     line-height: 21px;
     font-weight: 400;
+}
+
+.catalog-hotels{
+    display: block;
 }
 
 .catalog-title {
