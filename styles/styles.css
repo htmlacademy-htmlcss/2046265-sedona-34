@@ -138,6 +138,8 @@ body {
 }
 
 .advantages-list {
+    display: flex;
+    flex-wrap: wrap;
     width: 1200px;
     text-align: center;
     padding: 0;
@@ -190,6 +192,10 @@ body {
     padding-right: 0;
 }
 
+.advantages-item{
+    display: flex;
+}
+
 .advantages-couple {
     color: #ffffff;
     font-size: 18px;
@@ -220,18 +226,6 @@ body {
     font-size: 18px;
     line-height: 21px;
     color: #333333;
-}
-
-.advantages-flex{
-    display: flex;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-  
-}
-
-.advantages-item{
-    display: flex;
 }
 
 .advantages-square {   
