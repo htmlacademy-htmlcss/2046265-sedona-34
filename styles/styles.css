@@ -137,12 +137,13 @@ body {
     text-align: center;
     padding: 0;
     margin: 0;
+    list-style-type: none;
 }
 
 .advantages-sub-paragraph {
     display: flex;
-    justify-content: space-between;
-    padding: 0;  
+    padding: 0;
+    list-style-type: none;  
 }
 
 .advantages-block {
@@ -151,29 +152,42 @@ body {
 }
 
 .advantages-city {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 85px;
+    width: 230px;
+    min-height: 200px;
     background-color: #82B3D3;
     color: #ffffff;
+    margin: 0;
 }
 
 .advantages-hotels {
-    width: 400px;
-    min-height: 384px;
-    padding: 0;
+    width: 230px;
+    min-height: 223px;
     background-color: rgba(131, 179, 211, 0.12);
+    display: flex;
+    flex-direction: column;
+    padding: 80px 85px 81px;
 }
 
 .advantages-food {
-    width: 400px;
-    min-height: 384px;
-    padding: 0;
+    width: 230px;
+    min-height: 223px;
     background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 85px 81px;
+    margin: 0;
 }
 
 .advantages-souvenirs {
-    width: 400px;
-    min-height: 384px;
-    padding: 0;
+    width: 230px;
+    min-height: 223px;
     background-color: rgba(131, 179, 211, 0.12);
+    display: flex;
+    flex-direction: column;
+    padding: 80px 85px 81px;
 }
 
 .advantages-landscapes {
@@ -216,24 +230,31 @@ body {
 }
 
 .advantages-square {   
-    width: 400px;
-    min-height: 384px;
-    padding: 0;
+    width: 230px;
+    min-height: 179px;
     background-color: rgba(131, 179, 211, 0.12);
+    display: flex;
+    flex-direction: column;
+    padding: 103px 85px 102px;
 }
 
 .advantages-road {
-    width: 400px;
-    min-height: 384px;
-    padding: 0;
+    width: 230px;
+    min-height: 179px;
     background-color: rgba(131, 179, 211, 0.2);
+    display: flex;
+    flex-direction: column;
+    padding: 103px 85px 102px;
 }
 
 .advantages-tourists {
-    width: 400px;
-    min-height: 384px;
+    width: 230px;
+    min-height: 179px;
     padding: 0;
     background-color: rgba(131, 179, 211, 0.12);
+    display: flex;
+    flex-direction: column;
+    padding: 103px 85px 102px;
 }
 
 .search {
