@@ -94,8 +94,8 @@ body {
 }
 
 .navigation-user .navigation-link{
-    min-width: 42px;
-    min-height: 66px;
+    min-width: 17px;
+    min-height: 17px;
 }
 
 
@@ -412,7 +412,8 @@ body {
     justify-content: space-between;
     margin: 0;
     padding: 40px 70px 30px 70px;
-
+    width: 1060px;
+    min-height: 50px;
 }
 
 .footer-contact-adress{
@@ -423,7 +424,7 @@ body {
 .footer-social-list{
    display: flex;
    flex-wrap: wrap;
-   width: 143px;
+   width: 142px;
    min-height: 40px;
    list-style-type: none;
    margin: 0;
@@ -433,8 +434,7 @@ body {
 
 .footer-social-item{
   width: 47px;
-  height: 27px;
-  padding-top: 13px;
+  padding-top: 18px;
 }
 
 
