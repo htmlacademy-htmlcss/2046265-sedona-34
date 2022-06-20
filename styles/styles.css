@@ -447,19 +447,41 @@ body {
     text-decoration: none;
 }
 
+.inner-header{
+    display: flex;
+    flex-direction: column;
+}
+
 .hotel-filter {
     background-image: url(../images/filter.jpg);
     background-repeat: no-repeat;
     background-size: 100% auto;
     color: #ffffff;
     background-color: #000000;
+    
 }
 
 .inner-header-title {
     font-size: 60px;
     line-height: 78px;
     text-transform: capitalize;
+    font-weight: 700;
+    width: 494px;
+    margin: 0;
+    min-height: 78px;
+    padding: 35px 635px 10px 70px;
 }
+
+.breadcrumbs{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 110px;
+    min-height: 21px;
+    margin: 0;
+    padding: 0 1017px 40px 72px;
+}
+
 
 .breadcrumbs-link {
     font-size: 16px;
@@ -467,10 +489,66 @@ body {
 
 }
 
+.catalog-filter{
+    display: flex;
+    justify-content: space-between;
+    width: 1059px;
+    min-height: 149px;
+    padding: 0 70px 70px;
+    margin: 0;
+}
+
+.catalog-filter-infrastructure {
+    width: 150px;
+    min-height: 149px;
+    border: none;
+    margin: 0;
+    padding: 0;
+    
+}
+.catalog-filter-housing {
+    width: 145px;
+    min-height: 149px;
+    border: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.employ-reset-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    border: none;
+}
+
+.catalog-filter-item:nth-child(1){
+    margin-bottom: 15px;
+}
+
+.catalog-filter-item:nth-child(2){
+    margin-bottom: 15px;
+}
+
+.catalog-filter-list{
+    list-style-type: none;
+    margin: 0;
+    margin-top: 30px;
+    padding-left: 0;
+}
+
 .catalog-filter-title {
     font-size: 20px;
     line-height: 26px;
     font-weight: 700;
+    padding: 0;
+
+}
+
+.catalog-range{
+    border: 0;
+    margin: 0;
+    padding: 0;
 }
 
 .select-control-sorting {
@@ -489,6 +567,9 @@ body {
     color: #ffffff;
     background-color: #82B3D3;
     text-transform: uppercase;
+    border: 0;
+    padding: 0;
+
 }
 
 .reset {
@@ -497,13 +578,16 @@ body {
     line-height: 20px;
     color: #ffffff;
     background-color: #000000;
-
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
 .control {
     font-size: 18px;
     line-height: 21px;
     font-weight: 400;
+    margin: 0;
 }
 
 .catalog-hotels {
@@ -515,6 +599,7 @@ body {
     line-height: 36px;
     font-weight: 700;
     text-transform: uppercase;
+    margin: 0;
 }
 
 .hotels-card-link {
