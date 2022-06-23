@@ -174,6 +174,8 @@ body {
     line-height: 28px;
     text-transform: uppercase;
     margin: 0;
+    width: 230px;
+    min-height: 56px;
     
 }
 
@@ -457,7 +459,7 @@ body {
 .hotel-filter {
     background-image: url(../images/filter.jpg);
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: cover;
     color: #ffffff;
     background-color: #000000;
     
@@ -616,11 +618,35 @@ body {
     line-height: 36px;
     font-weight: 700;
     text-transform: uppercase;
-    margin: 0;
     width: 338px;
     min-height: 37px;
     margin-top: 7px;
     margin-bottom: 4px;
+}
+
+.hotels-list{
+    display: grid;
+    grid-template-columns: 340px 340px 340px;
+    column-gap: 18px;
+    list-style-type: none;
+    padding-left: 71px;
+    padding-right: 73px;
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 66px;
+}
+
+.hotels-card {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.hotels-price{
+    display: grid;
+    grid-template-columns: 140px 140px;
+    grid-template-rows: 21px 37px 37px;
+    gap: 16px 20px;
 }
 
 .hotels-card-link {
@@ -633,6 +659,19 @@ body {
     line-height: 28px;
     color: #000000;
     text-decoration: none;
+    width: 300px;
+    text-align: left;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.hotels-card-name{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #333333;
+    text-align: left;
 }
 
 .hotels-card-price {
@@ -641,6 +680,7 @@ body {
     font-size: 18px;
     line-height: 21px;
     color: #333333;
+    text-align: left;
 }
 
 .hotels-detailed {
@@ -652,6 +692,7 @@ body {
     background-color: #756157;
     text-decoration: none;
     text-transform: uppercase;
+    padding-top: 9px;
 }
 
 .hotels-favourites {
@@ -663,7 +704,7 @@ body {
     background-color: #82B3D3;
     text-decoration: none;
     text-transform: uppercase;
-
+    padding-top: 9px;
 }
 
 .hotels-added {
@@ -675,6 +716,7 @@ body {
     background-color: #7DB54F;
     text-decoration: none;
     text-transform: uppercase;
+    padding-top: 9px;
 }
 
 .rating {
@@ -684,6 +726,8 @@ body {
     text-align: center;
     text-transform: uppercase;
     color: #333333;
+    padding-top: 9px;
+    background-color: #F2F2F2;
 }
 
 .hotels-card-button {
@@ -704,6 +748,8 @@ body {
 
 .pagination-container p{
     margin: 20px 71px 17px 270px;
+    width: 175px;
+    min-height: 23px;
 }
 
 .pagination {
@@ -746,6 +792,9 @@ body {
     font-size: 18px;
     line-height: 21px;
     color: #333333;
+    width: 160px;
+    min-height: 49px;
+    padding: 0;
 
 }
 
