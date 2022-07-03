@@ -66,6 +66,7 @@ body {
     list-style-type: none;
     flex-wrap: wrap;
     margin-left: 30px;
+    
 }
 
 .navigation-link {
@@ -95,39 +96,34 @@ body {
     outline: 1px solid #000000;
 }
 
-.navigation-logo:hover {
-    outline: 2px solid #000000;
-}
-
-.navigation-logo:focus {
-    outline: 2px solid #68A2CA;
-}
-
-
-.navigation-link-current::before {
-    position: absolute;
-    bottom: -2px;
-    width: 68px;
-    background-color: #756157;
+.navigation-link-current::after {
     content: "";
-    border: 2px solid #756257;
-    z-index: 1;
-
+    position: absolute;
+    width: calc(100% - 34px);
+    border-bottom: 2px solid #756257;
+    left: 0;
+    top: 0;
+    bottom: -1px;
+    margin: 0 17px;
+    z-index: 2;
 }
 
 .navigation-link-current-catalog::before {
-    position: absolute;
-    bottom: -2px;
-    width: 93px;
-    background-color: #756157;
     content: "";
-    border: 2px solid #756257;
-    z-index: 1;
+    position: absolute;
+    width: calc(100% - 34px);
+    border-bottom: 2px solid #756257;
+    left: 0;
+    top: 0;
+    bottom: -1px;
+    margin: 0 17px;
+    z-index: 2;
 }
 
 .navigation-link-logo {
     position: relative;
 }
+
 
 .navigation-logo {
     position: absolute;
@@ -218,7 +214,7 @@ body {
     background-repeat: no-repeat;
     color: #000000;
     background-color: #ffffff;
-    background-size: cover;
+    background-size: 100% auto;
 
 }
 
@@ -227,9 +223,9 @@ body {
     height: 57px;
     background-image: url("../images/divider.svg");
     content: "";
-    top: 428px;
+    top: 429px;
     position: absolute;
-    background-color: #FFFFFF;
+    
 }
 
 .main-logo {
@@ -1329,6 +1325,10 @@ body {
     min-width: 200px;
     border: none;
     border-radius: 0px 10px 10px 0px;
+}
+
+.select-button {
+    cursor: pointer;
 }
 
 .select-button:hover {
