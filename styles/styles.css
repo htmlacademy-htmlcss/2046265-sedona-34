@@ -1521,9 +1521,9 @@ body {
     z-index: 3;
 }
 
-/* .modal-container-close {
+.modal-container-close {
     display: none;
-} */
+}
 
 .modal {
     position: relative;
