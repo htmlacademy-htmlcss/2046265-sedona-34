@@ -1221,9 +1221,7 @@ body {
 .hotels-price {
     display: grid;
     grid-template-columns: 140px 140px;
-    /* grid-template-rows: 21px 37px 37px; */
     gap: 16px 20px;
-    
 
 }
 
