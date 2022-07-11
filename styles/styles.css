@@ -1109,10 +1109,6 @@ body {
     outline: none;
 }
 
-.control-input-reset:disabled {
-    opacity: 0.0;
-}
-
 .control {
     font-size: 18px;
     line-height: 21px;
@@ -1163,6 +1159,10 @@ body {
     background-color: rgba(255, 255, 255, 0.3);
 }
 
+.control-input:disabled+.control-check-mark {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
 .control-input[type="radio"]+.control-mark {
     border-radius: 50%;
 }
@@ -1192,7 +1192,7 @@ body {
 }
 
 .control-input:disabled+.control-mark {
-    border-color: #242424;
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 .catalog-hotels {
