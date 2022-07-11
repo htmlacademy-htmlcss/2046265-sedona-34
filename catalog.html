@@ -25,7 +25,7 @@
             <a class="navigation-link" href="about.html">О Седоне</a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link navigation-link-current" >Гостиницы</a>
+            <a class="navigation-link navigation-link-current">Гостиницы</a>
           </li>
         </ul>
         <ul class="navigation-user">
@@ -62,26 +62,29 @@
           <h1 class="inner-header-title">Гостиницы Седоны</h1>
           <ul class="breadcrumbs">
             <li class="breadcrumbs-item">
-              <a class="logo-link" href="index.html">
-                <span class="visually-hidden">Главная</span>
-                <svg class="breadcrumbs-main" aria-hidden="true" focusable="false" width="13" height="13" fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
+              <a class="breadcrumbs-link" href="index.html">
+                <span class="visually-hidden">
+                  Главная
+                </span>
+                <svg class="breadcrumbs-icon-main" aria-hidden="true" focusable="false" width="13" height="13"
+                  viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd"
-                    d="m.16 6.15 6-5.5 6 5.5v6.2h-12v-6.2Zm1 .4v4.8h10v-4.8l-5-4.5-5 4.5Zm4 3.8h-1v-3.5h4v3.5h-1v-2.5h-2v2.5Z"
-                    fill="#fff" />
+                    d="M0.162109 6.1499L6.16211 0.649902L12.1621 6.1499V12.3499H0.162109V6.1499ZM1.16211 6.5499V11.3499H11.1621V6.5499L6.16211 2.0499L1.16211 6.5499ZM5.16211 10.3499H4.16211V6.84985H8.16211V10.3499H7.16211V7.84985H5.16211V10.3499Z" />
                 </svg>
               </a>
             </li>
             <li class="breadcrumbs-item">
               <span class="visually-hidden">
-                Стрелка
+                Указание на текущую страницу
               </span>
-              <svg class="breadcrumbs-icon" width="6" height="9" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <svg class="breadcrumbs-icon" aria-hidden="true" focusable="false" width="6" height="9" viewBox="0 0 6 9"
+                fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
-                  d="M5.05 4.07 1.25.67c-.2-.2-.6-.2-.9 0-.3.2-.2.6 0 .8l3.3 3-3.2 3c-.2.2-.2.6 0 .8 0 .1.3.2.4.2.1 0 .3-.1.4-.2l3.8-3.4c.3-.2.3-.6 0-.8Z"
-                  fill="#fff" />
+                  d="M5.05145 4.0749L1.25145 0.674902C1.05145 0.474902 0.651448 0.474902 0.351448 0.674902C0.0514485 0.874902 0.151448 1.2749 0.351448 1.4749L3.65145 4.4749L0.451448 7.4749C0.251448 7.6749 0.251448 8.0749 0.451448 8.2749C0.451448 8.3749 0.751448 8.4749 0.851448 8.4749C0.951449 8.4749 1.15145 8.3749 1.25145 8.2749L5.05145 4.8749C5.35145 4.6749 5.35145 4.2749 5.05145 4.0749Z" />
               </svg>
-              <a class="breadcrumbs-link">Гостиницы</a>
+              <a class="breadcrumbs-link breadcrumbs-text">
+                Гостиницы
+              </a>
             </li>
           </ul>
         </header>
@@ -119,7 +122,8 @@
               <ul class="catalog-filter-list">
                 <li class="catalog-filter-item">
                   <label class="control">
-                    <input class="visually-hidden control-input" type="radio" name="type-of-housing" value="hotel" checked>
+                    <input class="visually-hidden control-input" type="radio" name="type-of-housing" value="hotel"
+                      checked>
                     <span class="control-mark"></span>
                     <span class="control-label">Гостиница</span>
                   </label>
@@ -128,14 +132,14 @@
                   <label class="control">
                     <input class="visually-hidden control-input" type="radio" name="type-of-housing" value="motel">
                     <span class="control-mark"></span>
-                    <span class="control-label">Мотель</span>                  
+                    <span class="control-label">Мотель</span>
                   </label>
                 </li>
                 <li class="catalog-filter-item">
                   <label class="control">
                     <input class="visually-hidden control-input" type="radio" name="type-of-housing" value="apartments">
                     <span class="control-mark"></span>
-                    <span class="control-label">Апартаменты</span>                 
+                    <span class="control-label">Апартаменты</span>
                   </label>
                 </li>
               </ul>
@@ -217,7 +221,6 @@
             </a>
             <div class="hotels-price">
               <span class="hotels-card-name">Гостиница</span>
-              
               <span class="hotels-card-price">От 4000 ₽</span>
               <a class="hotels-detailed" href="#">подробнее</a>
               <button class="hotels-favourites select-button" type="button">в избранное</button>
@@ -286,7 +289,9 @@
               <a class="pagination-link select-button" href="#">4</a>
             </li>
             <li class="pagination-item">
-              <a class="pagination-link select-button" href="#">...</a>
+              <a class="pagination-link select-button" href="#">...
+                <span class="visually-hidden">Другие страницы</span>
+              </a>
             </li>
             <li class="pagination-item">
               <a class="pagination-link select-button" href="#">10</a>
