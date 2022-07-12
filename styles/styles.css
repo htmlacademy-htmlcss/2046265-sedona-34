@@ -172,7 +172,7 @@ body {
     margin-right: 70px;
 }
 
-.navigation-user .navigation-link {
+.navigation-user .navigation-link-icon {
     min-width: 19px;
     min-height: 19px;
 
@@ -715,6 +715,7 @@ body {
 .breadcrumbs-link {
     color: #FFFFFF;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .breadcrumbs-icon {
@@ -1092,6 +1093,7 @@ body {
     padding: 0;
     margin-left: 35px;
     padding: 3px 13px;
+    cursor: pointer;
 
 }
 
